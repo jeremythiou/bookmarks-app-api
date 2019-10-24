@@ -13,6 +13,9 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::post('/register', 'Api\AuthController@register');
+Route::post('/login', 'Api\AuthController@login');
+
 Route::prefix('v1')->group(function() {
     Route::apiResource('/bookmark', 'Api\v1\BookmarkController');
 });

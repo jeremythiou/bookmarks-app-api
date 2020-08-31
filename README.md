@@ -1,5 +1,7 @@
 ## Bookmarks App Api
 
+API developed with Laravel
+
 In this application, the user can, with the api:
 
 -Get a list of bookmarks
